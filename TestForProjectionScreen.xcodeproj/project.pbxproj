@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343794BE24768C09001E17AF /* AudioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 343794BC24768C09001E17AF /* AudioCell.m */; };
+		343794BF24768C09001E17AF /* AudioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 343794BD24768C09001E17AF /* AudioCell.xib */; };
+		343794C224768CBE001E17AF /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343794C124768CBE001E17AF /* AudioController.m */; };
+		343794C524768D65001E17AF /* 25-Ocean-10min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 343794C324768D65001E17AF /* 25-Ocean-10min.mp3 */; };
+		343794C624768D65001E17AF /* 42-Rain-10min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 343794C424768D65001E17AF /* 42-Rain-10min.mp3 */; };
+		343794C924779DEE001E17AF /* SliderTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 343794C824779DEE001E17AF /* SliderTestController.m */; };
+		343794CE2477AC2A001E17AF /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 343794CD2477AC2A001E17AF /* LoadingView.m */; };
 		344009BE24750E140025253D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 344009BD24750E140025253D /* AppDelegate.m */; };
 		344009C124750E140025253D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 344009C024750E140025253D /* SceneDelegate.m */; };
 		344009C424750E140025253D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 344009C324750E140025253D /* ViewController.m */; };
@@ -36,6 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		343794BB24768C09001E17AF /* AudioCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioCell.h; sourceTree = "<group>"; };
+		343794BC24768C09001E17AF /* AudioCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioCell.m; sourceTree = "<group>"; };
+		343794BD24768C09001E17AF /* AudioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioCell.xib; sourceTree = "<group>"; };
+		343794C024768CBE001E17AF /* AudioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		343794C124768CBE001E17AF /* AudioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
+		343794C324768D65001E17AF /* 25-Ocean-10min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "25-Ocean-10min.mp3"; sourceTree = "<group>"; };
+		343794C424768D65001E17AF /* 42-Rain-10min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "42-Rain-10min.mp3"; sourceTree = "<group>"; };
+		343794C724779DEE001E17AF /* SliderTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderTestController.h; sourceTree = "<group>"; };
+		343794C824779DEE001E17AF /* SliderTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderTestController.m; sourceTree = "<group>"; };
+		343794CC2477AC2A001E17AF /* LoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		343794CD2477AC2A001E17AF /* LoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
 		344009B924750E140025253D /* TestForProjectionScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForProjectionScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		344009BC24750E140025253D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		344009BD24750E140025253D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +99,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		343794CA2477A582001E17AF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				343794C324768D65001E17AF /* 25-Ocean-10min.mp3 */,
+				343794C424768D65001E17AF /* 42-Rain-10min.mp3 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		343794CB2477A591001E17AF /* TestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				343794BB24768C09001E17AF /* AudioCell.h */,
+				343794BC24768C09001E17AF /* AudioCell.m */,
+				343794BD24768C09001E17AF /* AudioCell.xib */,
+				343794C024768CBE001E17AF /* AudioController.h */,
+				343794C124768CBE001E17AF /* AudioController.m */,
+				343794C724779DEE001E17AF /* SliderTestController.h */,
+				343794C824779DEE001E17AF /* SliderTestController.m */,
+			);
+			path = TestDemo;
+			sourceTree = "<group>";
+		};
 		344009B024750E140025253D = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +145,8 @@
 		344009BB24750E140025253D /* TestForProjectionScreen */ = {
 			isa = PBXGroup;
 			children = (
+				343794CB2477A591001E17AF /* TestDemo */,
+				343794CA2477A582001E17AF /* Resource */,
 				344009BC24750E140025253D /* AppDelegate.h */,
 				344009BD24750E140025253D /* AppDelegate.m */,
 				344009BF24750E140025253D /* SceneDelegate.h */,
@@ -115,6 +158,8 @@
 				344009CA24750E160025253D /* LaunchScreen.storyboard */,
 				344009CD24750E160025253D /* Info.plist */,
 				344009CE24750E160025253D /* main.m */,
+				343794CC2477AC2A001E17AF /* LoadingView.h */,
+				343794CD2477AC2A001E17AF /* LoadingView.m */,
 			);
 			path = TestForProjectionScreen;
 			sourceTree = "<group>";
@@ -240,9 +285,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343794C624768D65001E17AF /* 42-Rain-10min.mp3 in Resources */,
+				343794BF24768C09001E17AF /* AudioCell.xib in Resources */,
 				344009CC24750E160025253D /* LaunchScreen.storyboard in Resources */,
 				344009C924750E160025253D /* Assets.xcassets in Resources */,
 				344009C724750E140025253D /* Main.storyboard in Resources */,
+				343794C524768D65001E17AF /* 25-Ocean-10min.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +315,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343794C924779DEE001E17AF /* SliderTestController.m in Sources */,
+				343794CE2477AC2A001E17AF /* LoadingView.m in Sources */,
+				343794BE24768C09001E17AF /* AudioCell.m in Sources */,
 				344009C424750E140025253D /* ViewController.m in Sources */,
 				344009BE24750E140025253D /* AppDelegate.m in Sources */,
 				344009CF24750E160025253D /* main.m in Sources */,
+				343794C224768CBE001E17AF /* AudioController.m in Sources */,
 				344009C124750E140025253D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
